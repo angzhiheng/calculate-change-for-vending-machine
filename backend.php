@@ -45,7 +45,7 @@ else{
 
     //Hundred-Note
     if(($change - 100) > 0)
-    for($i = 1; $i<=$change; $i++){            
+    for($i = 0; $i<=$change; $i++){            
         if(($change - 100) < 0)
             break;
         else{
@@ -63,7 +63,7 @@ else{
     // echo $change."<br/>";
     //Fifty-Note
     if(($change - 50) > 0)
-    for($i = 1; $i<=$change; $i++){            
+    for($i = 0; $i<=$change; $i++){            
         if(($change - 50) < 0)
             break;
         else{
@@ -81,7 +81,7 @@ else{
 
     //Twenty-Note
     if(($change - 20) > 0)
-        for($i = 1; $i<=$change; $i++){            
+        for($i = 0; $i<=$change; $i++){            
             if(($change - 20) < 0)
                 break;
             else{
@@ -98,7 +98,7 @@ else{
         }
     //Ten-Note
     if(($change - 10) > 0)
-    for($i = 1; $i<=$change; $i++){            
+    for($i = 0; $i<=$change; $i++){            
         if(($change - 10) < 0)
             break;
         else{
@@ -116,7 +116,7 @@ else{
     
     //Five-Note
     if(($change - 5) > 0)
-    for($i = 1; $i<=$change; $i++){            
+    for($i = 0; $i<=$change; $i++){            
         if(($change - 5) < 0)
             break;
         else{
@@ -140,7 +140,7 @@ else{
     }
     else
         if(($change - 1) > 0)
-        for($i = 1; $i<=$change; $i++){            
+        for($i = 0; $i<=$change; $i++){            
             if(($change - 1) < 0)
                 break;
             else{
